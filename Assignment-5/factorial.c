@@ -18,8 +18,8 @@ int main(int argc, char *argv[]) {
             num, factorial);
     
     } else 
-        printf("\n Factorial of negetive numbers" 
-            " are not possible.\n\n");
+        printf("\n Factorial of a negetive number" 
+            " is not possible.\n\n");
 
     return EXIT_SUCCESS;
 }
