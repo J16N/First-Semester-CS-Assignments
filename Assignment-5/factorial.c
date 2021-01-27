@@ -1,28 +1,12 @@
-/* Description
- * -----------
- * This program calculates the factorial 
- * of any given positive number.
- * Possible errors and exceptions are
- * handled.
- * 
- * Author
- * ------
- * Code contributed by J16N.
- * 
- * Additional Information
- * ----------------------
- * We were told to write the program
- * using loops so here we go.
- */ 
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
     int num = 0, temp = 0; 
-    long factorial = 1;
+    long long int factorial = 1;
     
-    printf("Enter number (positive): ");
+    printf("\n-------- FACTORIAL --------\n");
+    printf(" Enter number (positive): ");
     scanf("%d", &num);
     
     if (num >= 0) {
@@ -30,12 +14,12 @@ int main(int argc, char *argv[]) {
         
         while(temp > 1) factorial *= temp--;
         
-        printf("Factorial of %d is %ld.", 
+        printf("\n Factorial of %d is %lld.\n\n", 
             num, factorial);
     
     } else 
-        printf("Factorial of negetive numbers" 
-            " are not possible.");
+        printf("\n Factorial of negetive numbers" 
+            " are not possible.\n\n");
 
     return EXIT_SUCCESS;
 }
