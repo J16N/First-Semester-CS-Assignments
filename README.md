@@ -11,5 +11,4 @@ If you want to modify my solution or want to have a seperate copy of this reposi
 ![how-to-fork](https://raw.githubusercontent.com/J16N/First-Semester-CS-Assignments/main/README/fork.png)
 
   
-If you want to improve the code, you can even make a PR.   
-For more about contributions, contributing guidelines will be posted soon.
+If you want to improve the code, you can even make a PR. For more about contributions, contributing guidelines will be posted soon.
