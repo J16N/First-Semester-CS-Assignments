@@ -26,8 +26,8 @@ int main(int argc, char *argv[]) {
 
     x = x * PI / 180;
     printf("\n Actual value of cos(%g°): %g", 180 * x / PI, cos(x));
-    printf("\n Series computed value of cos(%g°): %g\n\n",
-        cosine_series(x, n));
+    printf("\n Series computed value of cos(%g°): %g\n\n", 
+        180 * x / PI, cosine_series(x, n));
 
     return EXIT_SUCCESS;
 }
