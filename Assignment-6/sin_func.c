@@ -25,8 +25,8 @@ int main(int argc, char *argv[]) {
     printf(" N-th Term: "); scanf("%d", &n);
 
     x = x * PI / 180;
-    printf("\n Sin(%g): %g", 180 * x / PI, sin(x));
-    printf("\n The value of sine function using series: %g\n\n",
+    printf("\n Actual value of sin(%g°): %g", 180 * x / PI, sin(x));
+    printf("\n Series computed value of sin(%g°): %g\n\n",
         sine_series(x, n));
 
     return EXIT_SUCCESS;
