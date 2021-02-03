@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     double x = 0; int n = 0;
 
     printf("\n------ Cosine Function ------\n");
-    printf(" Theta (x in degree): "); scanf("%lf", &x);
+    printf(" Theta (in degree): "); scanf("%lf", &x);
     printf(" N-th Term: "); scanf("%d", &n);
 
     x = x * PI / 180;
