@@ -2,7 +2,7 @@
 This repository contains all the solutions of the 1st semester CS assignments given by our university.
   
 
-If you like my solution don't forget to :star: it.
+If you like my solution you can give me a :star: :hugs:
 
 ![how to star](https://raw.githubusercontent.com/J16N/First-Semester-CS-Assignments/main/README/star.png)
 
