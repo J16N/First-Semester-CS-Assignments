@@ -8,8 +8,7 @@ int main(int argc, char *argv[]) {
     printf("\n------ ODD EVEN ARRAY ------\n");
     printf(" Total Numbers: "); scanf("%d", &size);
 
-    int f_size = size % 2 ? (size + 1) / 2: size;
-    int odd[f_size], even[f_size];
+    int odd[size], even[size];
 
     for (size_t i = 0; i < size; ++i) {
         printf(" Number-%ld: ", i + 1);
