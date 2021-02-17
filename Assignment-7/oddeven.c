@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-    int size = 0, num = 0,
-        odd_c = 0, even_c = 0;
+    unsigned int size = 0, odd_c = 0, even_c = 0;
+    int num = 0;
 
     printf("\n------ ODD EVEN ARRAY ------\n");
     printf(" Total Numbers: "); scanf("%d", &size);
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("\n Total odd numbers: %d\n Total even numbers: %d\n\n", 
+    printf("\n Total odd numbers: %u\n Total even numbers: %u\n\n", 
         odd_c, even_c);
 
     return EXIT_SUCCESS;
