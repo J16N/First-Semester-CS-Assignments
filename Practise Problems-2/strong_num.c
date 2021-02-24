@@ -18,7 +18,7 @@ int is_strong_num(int n) {
 int main() {
     int lower = 0, upper = 0;
 
-    printf("\n------ CHECK IF A NUMBER IS A STRONG NUMBER ------\n\n");
+    printf("\n------ PRINT ALL STRONG NUMBERS BETWEEN A GIVEN RANGE ------\n\n");
     printf("\n Lower Limit: "); scanf("%d", &lower);
     printf("\n Upper Limit: "); scanf("%d", &upper);
 
